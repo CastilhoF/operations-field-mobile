@@ -1,0 +1,43 @@
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native (gerado pelo prebuild; nunca editar à mão)
+/android
+/ios
+.kotlin/
+*.orig.*
+
+# Assinatura: keystore e chaves nunca entram no repositório
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.mobileprovision
+credentials.json
+
+# Testes
+coverage/
+
+# Metro
+.metro-health-check*
+
+# Env: só o .env.example é versionado
+.env
+.env.*
+!.env.example
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Sistema
+.DS_Store
+._*
